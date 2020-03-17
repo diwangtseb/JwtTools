@@ -1,0 +1,9 @@
+E:\C#-Wd-Demo\Webapi\JwtTools\bin\Debug\JwtTools.dll
+E:\C#-Wd-Demo\Webapi\JwtTools\bin\Debug\JwtTools.pdb
+E:\C#-Wd-Demo\Webapi\JwtTools\bin\Debug\JWT.dll
+E:\C#-Wd-Demo\Webapi\JwtTools\bin\Debug\Newtonsoft.Json.dll
+E:\C#-Wd-Demo\Webapi\JwtTools\bin\Debug\JWT.pdb
+E:\C#-Wd-Demo\Webapi\JwtTools\bin\Debug\JWT.xml
+E:\C#-Wd-Demo\Webapi\JwtTools\bin\Debug\Newtonsoft.Json.xml
+E:\C#-Wd-Demo\Webapi\JwtTools\obj\Debug\JwtTools.dll
+E:\C#-Wd-Demo\Webapi\JwtTools\obj\Debug\JwtTools.pdb

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+	<meta charset="utf-8" />
+<script>
+	function btnLogin(){
+		var name=document.getElementById("loginName").value
+		var psw=document.getElementById("loginPwd").value
+		$.ajax({
+			url:"http://localhost:51811/login",
+			type:"post",
+			data:{
+				Username:name,
+				Password:psw
+			}			
+		}).done(function(data){
+			if(data){
+				sessionStorage.setItem("token",data)
+			}			
+		}).fail(function(err){
+			console.log(err)
+		})		
+	}
+	
+	function Search(){
+		$.ajax({
+			url:"http://localhost:51811/getInfo",
+			headers:{
+				token:sessionStorage.getItem("token")
+			},
+			type:"get",
+		}).done(function(data){
+			console.log(data)
+		})
+	}
+	
+	
+</script>
+</head>
+<body>
+    <input type="text" id="loginName"/>
+    <input type="text" id="loginPwd"/>
+    <button onclick="btnLogin()">登录</button>
+	<button onclick="Search()">查看资料</button>
+</body>
+</html>

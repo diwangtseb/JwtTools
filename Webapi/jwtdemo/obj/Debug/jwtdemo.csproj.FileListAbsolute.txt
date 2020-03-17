@@ -1,0 +1,11 @@
+E:\C#-Wd-Demo\Webapi\jwtdemo\bin\Debug\jwtdemo.exe.config
+E:\C#-Wd-Demo\Webapi\jwtdemo\bin\Debug\jwtdemo.exe
+E:\C#-Wd-Demo\Webapi\jwtdemo\bin\Debug\jwtdemo.pdb
+E:\C#-Wd-Demo\Webapi\jwtdemo\bin\Debug\JWT.dll
+E:\C#-Wd-Demo\Webapi\jwtdemo\bin\Debug\Newtonsoft.Json.dll
+E:\C#-Wd-Demo\Webapi\jwtdemo\bin\Debug\JWT.pdb
+E:\C#-Wd-Demo\Webapi\jwtdemo\bin\Debug\JWT.xml
+E:\C#-Wd-Demo\Webapi\jwtdemo\bin\Debug\Newtonsoft.Json.xml
+E:\C#-Wd-Demo\Webapi\jwtdemo\obj\Debug\jwtdemo.csprojResolveAssemblyReference.cache
+E:\C#-Wd-Demo\Webapi\jwtdemo\obj\Debug\jwtdemo.exe
+E:\C#-Wd-Demo\Webapi\jwtdemo\obj\Debug\jwtdemo.pdb
